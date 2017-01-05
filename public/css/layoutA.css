@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300i,400,700');
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-thin
+{
+	font-weight: 100; 
+}
+
+.font-thin-italic
+{
+	font-weight: 100i; 
+}
+
+.font-light-italic
+{
+	font-weight: 300i;
+}
+
+.font-reg
+{
+	font-weight: 400;
+}
+
+.font-bold
+{
+	font-weight: 700;
+}
+
+
+
+.wrapper-a
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	background: #000;
+}
+
+.bg-a
+{
+	width: inherit;
+	height: inherit;
+	position: fixed;
+
+	background-image: url(../img/cat_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
